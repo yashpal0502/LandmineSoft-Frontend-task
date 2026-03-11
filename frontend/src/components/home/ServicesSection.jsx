@@ -35,7 +35,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <div>
+    <div className="flex flex-col m-5">
       <div className="flex items-center border border-gray-200 rounded-full px-5 py-1 mx-auto text-sm w-38">
         <span className="flex items-center gap-1 text-[#ff9800] font-medium">
           <svg
