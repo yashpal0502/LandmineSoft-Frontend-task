@@ -4,6 +4,7 @@ import CompanyIntro from "../components/home/CompanyIntro";
 import ServicesSection from "../components/home/ServicesSection";
 import WhyChooseUs from "../components/home/WhyChooseUs";
 import Technologies from "../components/home/Technologies";
+import Testinomials from "../components/home/Testinomials";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <ServicesSection />
       <WhyChooseUs />
       <Technologies />
+      <Testinomials />
     </>
   );
 };
