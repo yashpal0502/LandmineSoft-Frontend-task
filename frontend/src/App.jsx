@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./components/home/Footer";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
+import Services from "./pages/Services";
 
 const App = () => {
   const location = useLocation();
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Services />} />
       </Routes>
       <Footer />
     </div>
