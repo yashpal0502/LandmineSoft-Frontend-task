@@ -103,7 +103,8 @@ const Footer = () => {
       </div>
 
       <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-        Copyright 2026 © <span>Landmine Soft</span>. All Right Reserved.
+        Copyright {new Date().getFullYear()} © <span>Landmine Soft</span>. All
+        Right Reserved.
       </p>
     </footer>
   );
