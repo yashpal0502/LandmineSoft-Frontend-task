@@ -43,7 +43,7 @@ src
 Clone the repository
 
 ```
-git clone https://github.com/yashpal0502/Landminesoft-Frontend-task.git
+git clone https://github.com/yashpal0502/LandmineSoft-Frontend-task.git
 ```
 
 Navigate to project folder
