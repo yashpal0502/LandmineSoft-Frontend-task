@@ -1,9 +1,12 @@
 import { Eye, EyeOff, Lock, LogIn, Mail, User, UserPlus } from "lucide-react";
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [mode, setMode] = useState("login");
   const [showPassword, setShowPassword] = useState(false);
+
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-100 px-4">
       <div className="bg-white shadow-xl rounded-2xl w-full max-w-md p-6 md:p-8">
@@ -73,6 +76,7 @@ const Login = () => {
         )}
 
         <button
+          onClick={() => navigate("/")}
           className={`w-full bg-[#009966] text-white rounded-lg py-3 hover:bg-[#ff9800] transition mb-4 ${mode === "register" ? "mt-3" : ""}`}
         >
           {mode === "login" ? "Login" : "Register"}
