@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Careers from "./pages/Careers";
 import ContactUs from "./pages/ContactUs";
 import { Toaster } from "react-hot-toast";
+import Login from "./pages/Login";
 
 const App = () => {
   const location = useLocation();
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/service" element={<Services />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </div>
